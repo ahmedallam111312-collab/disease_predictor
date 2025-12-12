@@ -3,7 +3,7 @@ import os
 # ================= CREDENTIALS =================
 # 🔑 PASTE YOUR KEY INSIDE THE QUOTES BELOW
 # Example: "gsk_xYz123..."
-HARDCODED_KEY = "ENTER_YOUR_API_KEY_HERE"
+HARDCODED_KEY = "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"
 
 # Logic: Use the hardcoded key if it exists, otherwise check Environment variables
 GROQ_API_KEY = HARDCODED_KEY if HARDCODED_KEY.startswith("gsk_") else os.environ.get("GROQ_API_KEY")
